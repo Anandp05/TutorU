@@ -17,7 +17,7 @@ body {
 }
 
 header {
-    background-color: var(--primary-color);
+
     color: var(--white);
     padding: 1em 0;
 }
@@ -47,7 +47,7 @@ nav .logo img {
 }
 
 .nav-links a {
-    color: white;
+    color: var(--primary-color);
     text-decoration: none;
     font-size: 1.1em;
 }
@@ -61,6 +61,7 @@ nav .logo img {
     text-align: center;
     padding: 4em 1em;
     background-size: cover;
+    background-color: var(--primary-color);
     color: white;
     display: flex;
     flex-direction: column;
@@ -77,6 +78,13 @@ nav .logo img {
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
     z-index: 0;
+}
+
+#home{
+    width: 100%;
+    height: 25px;
+    background-color: var(--primary-color);
+
 }
 
 .hero h1, .hero p {
